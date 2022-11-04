@@ -1,0 +1,29 @@
+.about-us__container {
+   margin-top: 192px;
+   padding-left: 50px;
+   padding-bottom: 130px;
+   background: url(../image/Illustration.svg) no-repeat right top;
+}
+
+.about-us {
+   width: 470px;
+}
+
+.addition {
+   margin-top: 70px;
+   background: #FCDDD4;
+   width: 570px;
+   height: 160px;
+   display: flex;
+   border-left: 10px solid #ED4D47;
+}
+
+.addition-paragraph {
+   font-family: 'Rubik';
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 36px;
+   color: #402B2B;
+   margin: 0;
+   padding: 30px 55px;
+}

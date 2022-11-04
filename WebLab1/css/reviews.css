@@ -1,0 +1,44 @@
+.title__position {
+   padding: 0 572px 13px;
+}
+
+.last-title {
+   padding: 0 417px 50px;
+   margin: 0;
+   font-family: 'DM Serif Display';
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 140%;
+}
+
+.review {
+   display: flex;
+   padding: 0;
+}
+
+.review-item {
+   background: #fff;
+   width: 420px;
+   height: 360px;
+   margin-right: 20px;
+}
+
+.review-text {
+   font-family: 'Rubik';
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 30px;
+   width: 320px;
+   height: 180px;
+   padding: 60px 52px 0 42px;
+   margin: 0;
+}
+
+.person {
+   padding: 20px 0px 40px 48px;
+   display: flex;
+}
+
+.name {
+   padding: 20px;
+}

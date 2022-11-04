@@ -1,0 +1,38 @@
+.header{
+      background: url(../image/BackgroundScene.svg) no-repeat;
+   color: #fff;
+   background-position-y: -54px;
+   background-position-x: 29px;
+}
+
+.header__container {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 40px;
+}
+
+.logo {
+   padding-top: 4px;
+   padding-left: 80px;
+}
+
+.header__nav {
+   display: flex;
+}
+
+.header__nav ul {
+   display: flex;
+}
+
+.header__nav-item {
+   margin-right: 97px;
+   font-family: 'Rubik';
+   font-weight: 700;
+}
+
+
+.header_contact-us {
+   width: 158px;
+   height: 60px;
+   margin-right: 100px;
+}
