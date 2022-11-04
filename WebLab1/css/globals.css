@@ -1,0 +1,45 @@
+body {
+   color: #402B2B;
+   font-family: 'Rubik', sans-serif;
+   background: #fcf5f5;
+}
+
+.container {
+   margin: 0 auto;
+   max-width: 1285px;
+}
+
+a {
+   text-decoration: none;
+   color: #fff;
+}
+
+li {
+   display: block;
+}
+
+button {
+   background: #EE4D47;
+   border-radius: 5px;
+   color: #fff;
+   border: 0;
+}
+
+.title {
+   font-family: 'Rubik';
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 40px;
+   letter-spacing: 0.1em;
+   color: #EE4D47;
+   padding-bottom: 40px;
+   margin: 0;
+}
+
+.par {
+   font-family: 'Rubik';
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 40px;
+   margin: 0;
+}

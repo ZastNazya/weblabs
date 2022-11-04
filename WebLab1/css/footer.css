@@ -1,0 +1,29 @@
+.footer {
+   margin-top: 184px;
+   background: #F16353;
+   height: 205px;
+}
+
+.footer__ul {
+   max-width: 1285px;
+   padding-top: 78px;
+   padding-left: 0;
+   margin-right: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.footer__ul-item_position {
+   padding-right: 250px;
+   padding-left: 380px;
+}
+
+.app {
+   display: flex;
+   padding: 0;
+}
+
+.app-item {
+   margin-right: 40px;
+}

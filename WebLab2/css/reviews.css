@@ -1,0 +1,94 @@
+.title__position {
+   display: flex;
+   justify-content: center;
+}
+
+.last-title {
+   margin: 0;
+   padding-bottom: 50px;
+   display: flex;
+   justify-content: center;
+   font-family: 'DM Serif Display';
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 140%;
+}
+
+.review {
+   display: flex;
+   padding: 0;
+   overflow-y: scroll;
+   scroll-behavior: smooth;
+}
+
+.review-item {
+   background: #fff;
+   width: 420px;
+   height: 360px;
+   margin-right: 20px;
+
+}
+
+.review-text {
+   font-family: 'Rubik';
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 30px;
+   width: 320px;
+   height: 180px;
+   margin: 60px 52px 0 42px;
+}
+
+.person {
+   margin: 20px 0px 40px 48px;
+   display: flex;
+}
+
+.name {
+   padding: 20px;
+}
+
+@media screen and (max-width:768px) {
+   .review-item {
+      width: 380px;
+      height: 300px;
+   }
+
+   .review-text {
+      width: 280px;
+      height: 160px;
+      margin-top: 30px;
+   }
+}
+
+@media screen and (max-width:600px) {
+   .title__position {
+      padding-bottom: 20px;
+   }
+
+   .last-title {
+      font-size: 38px;
+   }
+}
+
+@media screen and (max-width:450px) {
+   .last-title {
+      font-size: 24px;
+      padding-bottom: 20px;
+   }
+
+   .review-item {
+      width: 240px;
+      height: 300px;
+   }
+
+   .review-text {
+      font-size: 14px;
+      width: 220px;
+      margin: 20px 15px 0 15px;
+   }
+
+   .person {
+      margin: 20px 0 0 20px;
+   }
+}

@@ -1,0 +1,9 @@
+.how-to-apply__container{
+   padding-left: 770px;
+   background: url(../image/illustrations.svg) no-repeat;
+   background-position-y:-95px;
+   padding-bottom: 260px;
+}
+.how-to-apply{
+   width: 455px;
+}
