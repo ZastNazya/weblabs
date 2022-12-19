@@ -1,0 +1,96 @@
+.about-us__container {
+   margin-top: 192px;
+   padding-left: 50px;
+   padding-bottom: 130px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.about-us {
+   width: 470px;
+}
+
+.addition {
+   margin-top: 70px;
+   background: #FCDDD4;
+   width: 570px;
+   display: flex;
+   border-left: 10px solid #ED4D47;
+}
+
+.addition-paragraph {
+   font-family: 'Rubik';
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 36px;
+   color: #402B2B;
+   margin: 0;
+   padding: 30px 55px;
+}
+
+@media screen and (max-width:1160px) {
+   .about-us {
+      width: 440px;
+   }
+
+   .addition {
+      width: 475px;
+   }
+
+   .addition-paragraph {
+      padding: 30px;
+   }
+
+   .about-us__image {
+      width: 525px;
+   }
+}
+
+@media screen and (max-width:1024px) {
+   .about-us__container {
+      flex-direction: column-reverse;
+      align-items: center;
+   }
+}
+
+@media screen and (max-width:600px) {
+   .about-us__container {
+      margin-top: 80px;
+   }
+
+   .about-us {
+      width: 315px;
+   }
+
+   .addition {
+      width: 330px;
+   }
+
+   .addition-paragraph {
+      font-size: 18px;
+      padding: 20px;
+   }
+
+   .about-us__image {
+      width: 400px;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .about-us {
+      width: 240px;
+   }
+
+   .addition {
+      width: 250px;
+   }
+
+   .addition-paragraph {
+      font-size: 16px;
+      padding: 20px;
+   }
+
+   .about-us__image {
+      width: 340px;
+   }
+}

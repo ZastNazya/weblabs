@@ -1,0 +1,146 @@
+.header {
+   padding-top: 24px;
+   max-width: 1125px;
+   margin: auto;
+}
+
+.header__nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+.logo {
+   padding-top: 10px;
+}
+
+#nav-links :hover > .header__nav-item{
+   opacity: 0.3;
+}
+#nav-links :hover > .header__nav-item:hover{
+   opacity: 1;
+}
+
+.header__nav ul {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0;
+   transition: opacity 400ms ease;
+}
+
+.header__menu>img {
+   max-width: 100%;
+}
+
+.header__menu {
+   display: none;
+   width: 120px;
+   cursor: pointer;
+}
+
+.header__nav-item {
+   font-family: 'Rubik';
+   font-weight: 700;
+   margin: 0;
+}
+
+.header__nav-item__position {
+   margin: 0 60px;
+}
+
+.header_contact-us {
+   width: 158px;
+   height: 60px;
+   margin-left: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+   .header {
+      padding-top: 15px;
+   }
+
+   .header__nav {
+      align-items: center;
+   }
+
+   .logo {
+      height: 40px;
+      padding: 0;
+   }
+
+   .header__nav-item {
+      font-size: 14px;
+   }
+
+   .header_contact-us {
+      width: 148px;
+      height: 50px;
+      font-size: 14px;
+   }
+}
+
+
+
+@media screen and (max-width: 768px){
+   .header_contact-us {
+      display: none;
+   }
+
+}
+
+@media screen and (max-width: 600px){
+   .header {
+      position: fixed;
+      background: linear-gradient(297.17deg, #FFEDBA 6.67%, #EE4D47 91.82%);
+      min-width: 600px;
+   }
+
+   .header__menu {
+      display: block;
+   }
+
+   .header__nav__ul {
+      animation-name: backgroundColorPalette;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      position: fixed;
+      top: 72px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin-top: 0;
+      clip-path: circle(0 at top left);
+      transition: clip-path 0.9s ease-in;
+   }
+
+   .header__nav__ul.open {
+      clip-path: circle(1000px at top);
+   }
+
+   .header__nav__ul ul {
+      flex-direction: column;
+      height: 100%;
+   }
+
+   .header__nav__ul .header__nav-item {
+      margin-right: 0;
+      padding-top: 10vh;
+      flex: 1;
+   }
+
+   .header__nav__ul a {
+      font-weight: 500;
+      display: block;
+      font-size: 32px;
+   }
+
+   .header__nav-item__position {
+      margin: 0;
+   }
+
+   .logo {
+      display: none;
+   }
+
+}
